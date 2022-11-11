@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fragment Mono', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.main-div{
+    border: solid 5px black;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    width: 40vw;
+    
+}
+.left-div-conteiner{   
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-around;
+    margin: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+.hearder{
+
+    height: 250px;
+    width: 500px;
+}
+.hearder > img{
+    border-radius: 50%;
+    height:160px;
+    width:150px;
+}
+.experience-div-conteiner{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    height: 800px;
+    padding-top: 50px;
+}
+.jobs{
+    padding-top: 20px ;
+}
+.education-div-conteiner{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    height: 400px;
+}
+.education-div-conteiner > h2{
+    padding-bottom: 20px;
+}
+.right-div-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items:initial;
+    justify-content:space-between;
+    padding-top: 220px;
+    margin-right: 250px; 
+}
+.rigth-div{
+    padding: 30px;   
+}
+.rigth-div > h2{
+    padding-bottom: 20px;    
+}
